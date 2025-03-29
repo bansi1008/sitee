@@ -10,6 +10,7 @@ import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import resto from "../../Assets/Projects/resto.PNG";
 import book from "../../Assets/Projects/book.jpg";
+import imgu from "../../Assets/Projects/Imgmulti.jpeg";
 
 function Projects() {
   return (
@@ -25,7 +26,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={resto}
+              imgPath={imgu}
               isBlog={false}
               title="Multimart"
               description="Developed and deployed a full-stack e-commerce web application, leveraging React, Node.js, and Vercel for deployment.  
