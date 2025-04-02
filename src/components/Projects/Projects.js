@@ -11,6 +11,7 @@ import bitsOfCode from "../../Assets/Projects/blog.png";
 import resto from "../../Assets/Projects/resto.PNG";
 import book from "../../Assets/Projects/book.jpg";
 import imgu from "../../Assets/Projects/Imgmulti.jpeg";
+import movie from "../../Assets/Projects/Moviesearch.PNG";
 
 function Projects() {
   return (
@@ -51,6 +52,17 @@ Ensured cross-browser compatibility and mobile responsiveness. Deployed the appl
 and accessibility."
               demoLink="https://67c0f21d85804445893d6e71--strong-swan-afce65.netlify.app/"
               ghLink="https://github.com/bansi1008/Resto"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={movie}
+              isBlog={false}
+              title="Movie Serach"
+              description="A responsive web application built using React and the OMDB API. This project allows users to search for movies, view details such as plot summaries, ratings, and release years, and explore various titles with ease. Designed with a clean and user-friendly interface, the app demonstrates strong front-end development skills and API integration expertise."
+              ghLink="https://github.com/bansi1008/usepopcorn"
+              demoLink="https://moviesearch-beta.vercel.app/"
             />
           </Col>
 
