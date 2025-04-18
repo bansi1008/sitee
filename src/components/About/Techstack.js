@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
+import { SiCsharp, SiKotlin } from "react-icons/si";
 import {
   DiJavascript1,
   DiReact,
@@ -9,6 +10,7 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiSass,
 } from "react-icons/di";
 import {
   SiRedux,
@@ -63,6 +65,12 @@ function Techstack() {
 
       <Col xs={4} md={2} className="tech-icons">
         <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCsharp />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiSass />
       </Col>
     </Row>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { SiVercel, SiRailway } from "react-icons/si";
+import { SiVercel, SiRailway, SiGooglecloud } from "react-icons/si";
 import { FaAws } from "react-icons/fa";
 
 function Cloud() {
@@ -14,6 +14,9 @@ function Cloud() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiRailway />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGooglecloud />
       </Col>
     </Row>
   );
