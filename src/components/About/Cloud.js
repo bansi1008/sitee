@@ -1,37 +1,25 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
-  SiVisualstudiocode,
-  SiPostman,
-  SiSlack,
-  SiVercel,
-  SiIntellijidea,
-  SiMacos,
-  SiExpress,
-  SiLeetcode,
-} from "react-icons/si";
+import { SiVercel, SiRailway, SiGooglecloud } from "react-icons/si";
+import { FaAws } from "react-icons/fa";
 
-function Toolstack() {
+function Cloud() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <SiVercel />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <FaAws />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiIntellijidea />
+        <SiRailway />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiLeetcode />
+        <SiGooglecloud />
       </Col>
     </Row>
   );
 }
 
-export default Toolstack;
+export default Cloud;

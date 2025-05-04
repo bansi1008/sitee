@@ -12,6 +12,7 @@ import resto from "../../Assets/Projects/resto.PNG";
 import book from "../../Assets/Projects/book.jpg";
 import imgu from "../../Assets/Projects/Imgmulti.jpeg";
 import movie from "../../Assets/Projects/Moviesearch.PNG";
+import WanderWise from "../../Assets/Projects/WanderWise.png";
 
 function Projects() {
   return (
@@ -33,11 +34,22 @@ function Projects() {
               description="Developed and deployed a full-stack e-commerce web application, leveraging React, Node.js, and Vercel for deployment.  
 Designed a responsive interface using Tailwind CSS, ensuring compatibility across mobile and desktop devices. 
 Integrated dynamic features such as product browsing, cart functionality, and user authentication for a smooth user 
-experience. 
-Successfully demonstrated expertise in full-stack development, responsive design, and modern web technologies. 
+experience. Successfully demonstrated expertise in full-stack development, responsive design, and modern web technologies. 
 "
               demoLink="https://multimart-sepia.vercel.app/"
               ghLink="https://github.com/bansi1008/sitee"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={WanderWise}
+              isBlog={false}
+              title="WanderWise"
+              description="Developed a dynamic and responsive travel diary web application, WanderWise, using advanced React concepts such as Context API, useReducer, useMemo, and React.memo to ensure optimal performance and scalable state management. Integrated React-Leaflet for an interactive map experience and implemented Firebase Google Authentication for secure user login. Leveraged localStorage to persist user data across sessions without backend storage. Designed a clean, user-friendly interface with seamless responsiveness across devices. Deployed the application on Netlify for fast, reliable hosting and continuous delivery.
+
+"
+              demoLink="https://wanderwisee.netlify.app/"
+              ghLink="https://github.com/bansi1008/worldw"
             />
           </Col>
           <Col md={4} className="project-card">
