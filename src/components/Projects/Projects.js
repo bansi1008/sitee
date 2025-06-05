@@ -13,6 +13,7 @@ import book from "../../Assets/Projects/book.jpg";
 import imgu from "../../Assets/Projects/Imgmulti.jpeg";
 import movie from "../../Assets/Projects/Moviesearch.PNG";
 import WanderWise from "../../Assets/Projects/WanderWise.png";
+import skillswap from "../../Assets/Projects/skillswap.png";
 
 function Projects() {
   return (
@@ -26,6 +27,20 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={skillswap}
+              isBlog={false}
+              title="Skiilswap"
+              description="To check the functionality you can login with below credentials or you can sign up as well. 
+Login: test6@gmail.com 
+Password:1234567 Spearheaded the full-stack development and Vercel deployment of SkillSwap, a peer-to-peer skill exchange 
+platform, utilizing Next.js, React for a responsive frontend, Node.js (via Next.js API routes) for robust backend 
+services, and MongoDB for database management"
+              ghLink="https://github.com/bansi1008/skillswap"
+              demoLink="https://skillswap-swart.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={imgu}
