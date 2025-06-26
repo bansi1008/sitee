@@ -14,6 +14,8 @@ import imgu from "../../Assets/Projects/Imgmulti.jpeg";
 import movie from "../../Assets/Projects/Moviesearch.PNG";
 import WanderWise from "../../Assets/Projects/WanderWise.png";
 import skillswap from "../../Assets/Projects/skillswap.png";
+import trip from "../../Assets/Projects/trip.png";
+import observespace from "../../Assets/Projects/observespace.PNG";
 
 function Projects() {
   return (
@@ -27,6 +29,35 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={observespace}
+              isBlog={false}
+              title="observespace"
+              description="Developed and deployed an interactive web app using React and Next.js to visualize and analyze environmental changes via NDVI and NDWI indices from satellite imagery.
+	Integrated Google Maps API for location selection and Sentinel Hub WMS services to display time-series satellite data layers with before-and-after comparison sliders.
+	Implemented NDVI and NDWI change detection with downloadable reports, enabling users to monitor vegetation health and water body changes over time.
+	Designed a user-friendly, responsive interface with dynamic map interaction, date pickers, and advanced visualization tools to empower researchers and analysts in environmental monitoring.
+"
+              ghLink="https://github.com/bansi1008/observeSpace"
+              demoLink="https://observe-space.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={trip}
+              isBlog={false}
+              title="AI based trip recommodation"
+              description="Testing credentials:email=bansidobariya2510@gmail.com pass:1234567 (Note: may take 10-15 sec at first due to free tier cold start)
+	Developed and deployed an AI-powered trip recommendation web application using Next.js and MongoDB, providing personalized travel suggestions based on user preferences.
+	Implemented secure user authentication with OTP verification to ensure seamless and safe access.
+	Designed backend APIs for managing user profiles, trip data, and recommendations, ensuring efficient data flow and scalability.
+	Created a clean, responsive UI optimized for desktop and mobile devices, enhancing user engagement and experience throughout the trip planning process.
+"
+              ghLink="https://github.com/bansi1008/trip"
+              demoLink="https://wandermine.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={skillswap}
