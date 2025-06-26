@@ -12,6 +12,10 @@ import resto from "../../Assets/Projects/resto.PNG";
 import book from "../../Assets/Projects/book.jpg";
 import imgu from "../../Assets/Projects/Imgmulti.jpeg";
 import movie from "../../Assets/Projects/Moviesearch.PNG";
+import WanderWise from "../../Assets/Projects/WanderWise.png";
+import skillswap from "../../Assets/Projects/skillswap.png";
+import trip from "../../Assets/Projects/trip.png";
+import observespace from "../../Assets/Projects/observespace.PNG";
 
 function Projects() {
   return (
@@ -27,17 +31,71 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={observespace}
+              isBlog={false}
+              title="observespace"
+              description="Developed and deployed an interactive web app using React and Next.js to visualize and analyze environmental changes via NDVI and NDWI indices from satellite imagery.
+	Integrated Google Maps API for location selection and Sentinel Hub WMS services to display time-series satellite data layers with before-and-after comparison sliders.
+	Implemented NDVI and NDWI change detection with downloadable reports, enabling users to monitor vegetation health and water body changes over time.
+	Designed a user-friendly, responsive interface with dynamic map interaction, date pickers, and advanced visualization tools to empower researchers and analysts in environmental monitoring.
+"
+              ghLink="https://github.com/bansi1008/observeSpace"
+              demoLink="https://observe-space.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={trip}
+              isBlog={false}
+              title="AI based trip recommodation"
+              description="Testing credentials:email=bansidobariya2510@gmail.com pass:1234567 (Note: may take 10-15 sec at first due to free tier cold start)
+	Developed and deployed an AI-powered trip recommendation web application using Next.js and MongoDB, providing personalized travel suggestions based on user preferences.
+	Implemented secure user authentication with OTP verification to ensure seamless and safe access.
+	Designed backend APIs for managing user profiles, trip data, and recommendations, ensuring efficient data flow and scalability.
+	Created a clean, responsive UI optimized for desktops and mobile devices, enhancing user engagement and experience throughout the trip planning process.
+"
+              ghLink="https://github.com/bansi1008/trip"
+              demoLink="https://wandermine.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={skillswap}
+              isBlog={false}
+              title="Skiilswap"
+              description="To check the functionality you can login with below credentials or you can sign up as well. 
+Login: test6@gmail.com 
+Password:1234567 Spearheaded the full-stack development and Vercel deployment of SkillSwap, a peer-to-peer skill exchange 
+platform, utilizing Next.js, React for a responsive frontend, Node.js (via Next.js API routes) for robust backend 
+services, and MongoDB for database management"
+              ghLink="https://github.com/bansi1008/skillswap"
+              demoLink="https://skillswap-swart.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={imgu}
               isBlog={false}
               title="Multimart"
               description="Developed and deployed a full-stack e-commerce web application, leveraging React, Node.js, and Vercel for deployment.  
 Designed a responsive interface using Tailwind CSS, ensuring compatibility across mobile and desktop devices. 
 Integrated dynamic features such as product browsing, cart functionality, and user authentication for a smooth user 
-experience. 
-Successfully demonstrated expertise in full-stack development, responsive design, and modern web technologies. 
+experience. Successfully demonstrated expertise in full-stack development, responsive design, and modern web technologies. 
 "
               demoLink="https://multimart-sepia.vercel.app/"
               ghLink="https://github.com/bansi1008/sitee"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={WanderWise}
+              isBlog={false}
+              title="WanderWise"
+              description="Developed a dynamic and responsive travel diary web application, WanderWise, using advanced React concepts such as Context API, useReducer, useMemo, and React.memo to ensure optimal performance and scalable state management. Integrated React-Leaflet for an interactive map experience and implemented Firebase Google Authentication for secure user login. Leveraged localStorage to persist user data across sessions without backend storage. Designed a clean, user-friendly interface with seamless responsiveness across devices. Deployed the application on Netlify for fast, reliable hosting and continuous delivery.
+
+"
+              demoLink="https://wanderwisee.netlify.app/"
+              ghLink="https://github.com/bansi1008/worldw"
             />
           </Col>
           <Col md={4} className="project-card">
