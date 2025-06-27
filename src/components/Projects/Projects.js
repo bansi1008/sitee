@@ -52,7 +52,7 @@ function Projects() {
 	Developed and deployed an AI-powered trip recommendation web application using Next.js and MongoDB, providing personalized travel suggestions based on user preferences.
 	Implemented secure user authentication with OTP verification to ensure seamless and safe access.
 	Designed backend APIs for managing user profiles, trip data, and recommendations, ensuring efficient data flow and scalability.
-	Created a clean, responsive UI optimized for desktops and mobile devices, enhancing user engagement and experience throughout the trip planning process.
+	Created a clean, responsive UI optimized for desktop and mobile devices, enhancing user engagement and experience throughout the trip planning process.
 "
               ghLink="https://github.com/bansi1008/trip"
               demoLink="https://wandermine.vercel.app/"
